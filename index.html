@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Carta de apresentação — Eduardo Davisson Evangelista</title>
+  <style>
+    :root{
+      --bg: #dff7e6; /* verde claro */
+      --card-bg: rgba(255,255,255,0.95);
+      --text: #092022;
+      --maxw: 900px;
+      --pad: 32px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    html,body{
+      height:100%;
+      margin:0;
+      background:var(--bg);
+      color:var(--text);
+    }
+    .wrap{
+      min-height:100%;
+      display:flex;
+      align-items:flex-start; /* carta começa do topo */
+      justify-content:center;
+      padding:40px 20px 20px 20px; /* margem superior maior */
+      box-sizing:border-box;
+      overflow-y:auto; /* permite rolagem se necessário */
+    }
+    .card{
+      width:100%;
+      max-width:var(--maxw);
+      background:var(--card-bg);
+      border-radius:12px;
+      box-shadow:0 8px 24px rgba(0,0,0,0.08);
+      padding:var(--pad);
+      box-sizing:border-box;
+    }
+    h1{
+      margin:0 0 18px 0;
+      font-size:28px;
+      text-align:center;
+      letter-spacing:0.2px;
+    }
+    .content{
+      text-align:justify;
+      line-height:1.6;
+      font-size:16px;
+      white-space:pre-wrap; /* preserva quebras de linha */
+    }
+    .signature{
+      margin-top:22px;
+      text-align:left;
+      font-weight:600;
+    }
+
+    /* Responsividade */
+    @media (max-width:1024px){
+      .card{padding:20px}
+      h1{font-size:24px}
+      .content{font-size:15px}
+    }
+    @media (max-width:768px){
+      .wrap{padding:30px 15px 15px 15px}
+      h1{font-size:22px}
+      .content{font-size:15px}
+    }
+    @media (max-width:480px){
+      .wrap{padding:20px 10px 10px 10px}
+      h1{font-size:20px}
+      .content{font-size:14px}
+      .card{padding:16px}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <article class="card">
+      <h1>Carta de apresentação</h1>
+      <div class="content">&nbsp;&nbsp;&nbsp;&nbsp;Meu nome é Eduardo Davisson Evangelista, 45 anos, jundiaiense e profissional da área financeira com experiência em diferentes segmentos.
+Desenvolvi habilidades essenciais para atuar em ambientes desafiadores com comprometimento e foco nos resultados.
+&nbsp;&nbsp;&nbsp;&nbsp;Sou uma pessoa organizada, pró-ativa e com capacidade de análise.Tenho facilidade em trabalhar em equipe e acredito que a troca de conhecimentos entre os colaboradores é fundamental para o crescimento da empresa. -->
+&nbsp;&nbsp;&nbsp;&nbsp;No ambiente de trabalho sou reconhecido por minha ética profissional, responsabilidade e capacidade de resolução de problemas. Acredito que inovação e melhoria contínua são importantes para a evolução profissional.
+&nbsp;&nbsp;&nbsp;Sobre minha vida pessoal valorizo a família, amigos e momentos de lazer. &nbsp;&nbsp;&nbsp;&nbsp;Gosto de ouvir música, pratico atividades físicas como a corrida (equilíbrio de corpo e mente), viajar, além de fazer parte de uma dupla acústica o que me traz grande satisfação e que me permite desenvolver minha criatividade.
+&nbsp;&nbsp;&nbsp;&nbsp;Como todo ser humano também possuo desafios a serem trabalhados como impaciência em algumas situações.
+&nbsp;&nbsp;&nbsp;&nbsp;Sou detalhista e perfeccionista, o que me leva a revisar o meu “eu” com mais atenção.
+&nbsp;&nbsp;&nbsp;Para concluir estou em busca de novas oportunidades onde eu possa contribuir com minha experiência, agregar valor à empresa e continuar evoluindo profissionalmente. Acredito que meu perfil se encaixa em empresas que valorizam a organização, o trabalho em equipe e a eficiência na gestão financeira.
+
+Atenciosamente,
+Eduardo Davisson Evangelista (Analista financeiro)</div>
+      <div class="signature"></div>
+    </article>
+  </div>
+</body>
+</html>
